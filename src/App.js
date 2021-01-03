@@ -1,12 +1,16 @@
-import { Fragment } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Navbar/Footer';
 
 const App = () => {
   return (
-    <Fragment>
+    <div className="App">
       <Navbar/>
-    </Fragment>
+      <footer>
+        <Footer/>
+      </footer>
+    </div>
+
   );
 }
 
