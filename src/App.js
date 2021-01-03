@@ -1,14 +1,17 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Navbar/Footer';
+import Navbar from './components/Navbar/index';
+import Hero from './components/Hero/index';
 
 const App = () => {
   return (
     <div className="App">
+      <section className="landing-page">
       <Navbar/>
-      <footer>
+      {/* <footer>
         <Footer/>
-      </footer>
+      </footer> */}
+      </section>
+     <Hero/>
     </div>
 
   );

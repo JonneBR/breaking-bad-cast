@@ -5,8 +5,9 @@
 }
 
 html,
-body {
-  /* border: 1px solid red; */
+body,
+.landing-page {
+  border: 1px solid blue;
   height: 100vh;
-  background: #000 url('img/background.jpeg') no-repeat center center/cover;
+  background: black url('img/background.jpeg') no-repeat center center/cover;
 }
