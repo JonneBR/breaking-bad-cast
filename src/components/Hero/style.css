@@ -3,3 +3,13 @@
   background: #111111;
   /* border: 1px solid purple; */
 }
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+img {
+  width: 25rem;
+}
