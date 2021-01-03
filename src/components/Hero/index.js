@@ -43,6 +43,10 @@ const Hero = () => {
         <h1>GALLERY</h1>
         <h1>GALLERY</h1>
         <h1>GALLERY</h1>
+        <h1>GALLERY</h1>
+        <h1>GALLERY</h1>
+        <h1>GALLERY</h1>
+        <h1>GALLERY</h1>
         <h1>GALLERYVV</h1>
       </div>
     </section>

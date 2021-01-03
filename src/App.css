@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
-html,
-body,
 .landing-page {
-  border: 1px solid blue;
+  /* border: 1px solid red; */
+  height: 92vh;
+  background: green url('img/background.jpeg') no-repeat center center/cover;
+}
+
+html,
+body {
+  /* border: 1px solid blue; */
   height: 100vh;
-  background: black url('img/background.jpeg') no-repeat center center/cover;
+  /* background-color: #111111; */
 }

@@ -5,8 +5,8 @@ import Hero from './components/Hero/index';
 const App = () => {
   return (
     <div className="App">
-      <section className="landing-page">
-      <Navbar/>
+       <Navbar/>
+      <section className="landing-page">   
       {/* <footer>
         <Footer/>
       </footer> */}
