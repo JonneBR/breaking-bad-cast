@@ -13,3 +13,19 @@
 img {
   width: 25rem;
 }
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+input {
+  width: 55rem;
+  height: 3rem;
+  border-radius: 0;
+  border: 0;
+  font-size: 30px;
+  background-color: #918d8d;
+  /* border: 1px solid purple; */
+}

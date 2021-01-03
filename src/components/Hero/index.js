@@ -8,6 +8,9 @@ const Hero = () => {
       <div className="logo-img">
         <img src={logo} alt=""/>
       </div>
+      <div className="search">
+        <input type="text"/>
+      </div>
         <div>
         <h1>GALLERY</h1>
         <h1>GALLERY</h1>
