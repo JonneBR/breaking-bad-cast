@@ -12,20 +12,24 @@
 
 img {
   width: 25rem;
+  position: absolute;
 }
 
 .search {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  padding-top: 7rem;
+  position: relative;
 }
 
 input {
-  width: 55rem;
-  height: 3rem;
+  width: 60rem;
+  height: 3.4rem;
   border-radius: 0;
   border: 0;
   font-size: 30px;
   background-color: #918d8d;
+  opacity: 50%;
   /* border: 1px solid purple; */
 }
