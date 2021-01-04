@@ -18,12 +18,14 @@ img {
 .search {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
   padding-top: 7rem;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
 }
 
-input {
+.search input {
   width: 60rem;
   height: 3.4rem;
   border-radius: 0;
@@ -31,5 +33,23 @@ input {
   font-size: 30px;
   background-color: #918d8d;
   opacity: 50%;
-  /* border: 1px solid purple; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* use media query to fix the width */
+.center {
+  /* width: 100%; */
+}
+
+.gallery-container {
+  background-color: #c4c4c4;
+  opacity: 10%;
+}
+
+.gallery-container h1 {
+  opacity: 0;
 }
