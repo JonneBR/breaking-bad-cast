@@ -14,50 +14,24 @@ const Hero = () => {
             <input type="text" />
           </div>
 
-          <div className="gallery-container">
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERY</h1>
-            <h1>GALLERYVV</h1>
+          <div className="cards">
+            <div className="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Walter_White_S5B.png/220px-Walter_White_S5B.png" alt=""/>
+            </div>
+            <div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div><div className="card">
+            </div>
+            
           </div>
         </div>
       </div>
