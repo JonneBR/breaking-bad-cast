@@ -46,7 +46,12 @@ img {
 }
 
 .cards {
-  background-color: #c4c4c4;
+  background: rgb(17, 17, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(9, 27, 9, 1) 100%
+  );
   opacity: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
