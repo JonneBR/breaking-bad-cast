@@ -9,6 +9,7 @@ const Hero = () => {
         <img src={logo} alt="" />
       </div>
       <div className="container">
+      <div className="cards-container">
         <div className="center">
           <div className="search">
             <input type="text" />
@@ -33,6 +34,7 @@ const Hero = () => {
             </div>
             
           </div>
+        </div>
         </div>
       </div>
     </section>
