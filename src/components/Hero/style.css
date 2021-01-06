@@ -136,4 +136,10 @@ img {
     display: block;
     justify-content: center;
   }
+  .landing-page {
+    /* border: 1px solid red; */
+    height: 92vh;
+    background: green url('../../img/background.jpeg') no-repeat center center;
+    background-position: -960px;
+  }
 }
