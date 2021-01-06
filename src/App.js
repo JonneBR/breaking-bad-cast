@@ -7,11 +7,10 @@ const App = () => {
     <div className="App">
        <Navbar/>
       <section className="landing-page">   
-      {/* <footer>
-        <Footer/>
-      </footer> */}
       </section>
+      <section className="hero">
      <Hero/>
+     </section>
     </div>
 
   );

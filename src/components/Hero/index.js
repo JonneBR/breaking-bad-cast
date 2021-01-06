@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './style.css';
 import logo from '../../img/Breaking_Bad_logo.svg';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <Fragment>
       <div className="logo-img">
         <img src={logo} alt="" />
       </div>
@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
         </div>
       </div>
-    </section>
+    </Fragment>
   );
 };
 
