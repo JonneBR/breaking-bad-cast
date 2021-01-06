@@ -13,7 +13,9 @@ const App = () => {
     const fetchItems = async () => {
       const response = await fetch(`https://www.breakingbadapi.com/api/characters`)
       const result = await response.json()
-      console.log(result);
+      // console.log(result);
+      setItems(result)
+      setIsLoading(false)
     }
 
     fetchItems()
@@ -25,7 +27,7 @@ const App = () => {
       <section className="landing-page">   
       </section>
       <section className="hero">
-     <Hero/>
+     <Hero isLoading={isLoading} items={items}/>
      </section>
     </div>
 
