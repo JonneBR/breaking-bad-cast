@@ -1,6 +1,7 @@
 import React, { Fragment, Suspense } from 'react';
 import './style.css';
 import logo from '../../img/Breaking_Bad_logo.svg';
+import CharacterGrid from '../Characters/characterGrid'
 
 
 const Hero = ({items, isLoading}) => {
@@ -16,14 +17,7 @@ const Hero = ({items, isLoading}) => {
           <div className="search">
             <input type="text" />
           </div>
-
-          <div className="cards">
-            {items.map(item => (
-              <div className="card">
-                <img src={item['img']} alt=""/>
-              </div>
-            ))}            
-          </div>
+          <CharacterGrid isLoading={isLoading} items={items}/>
         </div>
         </div>
       </div>
