@@ -39,7 +39,6 @@ img {
   justify-content: center;
 }
 
-/* use media query to fix the width */
 .center {
   width: 100%;
 }
@@ -64,29 +63,46 @@ img {
   padding-top: 3.4rem;
 }
 
-.cards h1 {
-  /* opacity: 0; */
-}
-
 .card {
   cursor: pointer;
   background-color: #ffff;
-  /* height: 18.7rem; */
   height: 300px;
   perspective: 1000px;
   background-color: #737b81;
+  transition: 1s;
 }
 strong {
   color: #12171b;
 }
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.card-back {
+  transform: rotateY(180deg);
+  background-color: #737b81;
+}
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
 .card-back h1 {
-  /* border: 1px solid red; */
-  border-bottom: 1px solid black;
   margin: 1rem;
   text-align: center;
 }
 .card-back li {
   margin: 1rem;
+  border-bottom: 1px solid black;
   text-align: center;
   list-style-type: none;
 }
