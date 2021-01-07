@@ -74,6 +74,21 @@ img {
   /* height: 18.7rem; */
   height: 300px;
   perspective: 1000px;
+  background-color: #737b81;
+}
+strong {
+  color: #12171b;
+}
+.card-back h1 {
+  /* border: 1px solid red; */
+  border-bottom: 1px solid black;
+  margin: 1rem;
+  text-align: center;
+}
+.card-back li {
+  margin: 1rem;
+  text-align: center;
+  list-style-type: none;
 }
 
 .card img {
@@ -114,19 +129,6 @@ img {
     height: 100%;
   }
 
-  .card-back h1 {
-    /* border: 1px solid red; */
-    border-bottom: 1px solid black;
-    margin: 1rem;
-    text-align: center;
-  }
-  .card-back li {
-    /* border: 1px solid red; */
-    /* border-bottom: 1px solid black; */
-    margin: 1rem;
-    text-align: center;
-    list-style-type: none;
-  }
   .container {
     display: block;
     justify-content: center;

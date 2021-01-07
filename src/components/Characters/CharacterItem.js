@@ -4,7 +4,7 @@ const CharacterItem = ({item}) => {
   console.log(item);
   return (
       <div className="card">
-        {/* <img  src={item['img']} alt=""/> */}
+        <img  src={item['img']} alt=""/>
         <div className="card-back">
           <h1>{item['name']}</h1>
           <ul>
