@@ -18,6 +18,9 @@ const CharacterItem = ({item}) => {
               <strong>Actor Nickname: {item['nickname']}</strong>
             </li>
             <li>
+              <strong>Birthday: {item['birthday']}</strong>
+            </li>
+            <li>
               <strong>Status: {item['status']}</strong>
             </li>
           </ul>

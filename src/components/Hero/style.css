@@ -68,7 +68,7 @@ img {
   background-color: #ffff;
   height: 300px;
   perspective: 1000px;
-  background-color: #737b81;
+  background-color: transparent;
   transition: 1s;
 }
 strong {
