@@ -125,6 +125,7 @@ img {
     /* border-bottom: 1px solid black; */
     margin: 1rem;
     text-align: center;
+    list-style-type: none;
   }
   .container {
     display: block;

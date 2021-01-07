@@ -1,6 +1,7 @@
 import React from 'react'
 
 const CharacterItem = ({item}) => {
+  console.log(item);
   return (
       <div className="card">
         {/* <img  src={item['img']} alt=""/> */}
@@ -9,6 +10,12 @@ const CharacterItem = ({item}) => {
           <ul>
             <li>
               <strong>Actor Name: {item['portrayed']}</strong>
+            </li>
+            <li>
+              <strong>Actor Nickname: {item['nickname']}</strong>
+            </li>
+            <li>
+              <strong>Status: {item['status']}</strong>
             </li>
           </ul>
         </div>
