@@ -31,6 +31,7 @@ img {
   border: 0;
   font-size: 30px;
   background-color: #918d8d;
+  opacity: 0.5;
 }
 
 .container {
@@ -53,6 +54,7 @@ img {
     rgba(17, 17, 17, 1) 0%,
     rgba(9, 27, 9, 1) 100%
   );
+  opacity: 0.8;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
